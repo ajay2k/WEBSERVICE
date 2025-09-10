@@ -1,0 +1,443 @@
+* {
+  margin: 0vw;
+  padding: 0vw;
+  font-size: 1vw;
+}
+/* utility classes  */
+:root {
+  --limed-spruce: #3d4d59;
+  --manatee: #94979f;
+  --wild-sand: #f7f7f7;
+  --spicy-pink: #7d6e71;
+  --nobel: #b9abaa;
+  --submarine: #c2c9c9;
+  --scooter: #3bc1d0;
+  --almond-frost: #8f7e71;
+  --alto: #d4d3d3;
+  --bison-hide: #c9bdb1;
+  --blue: #0779e9;
+  --inputbox: #f5f5f5;
+}
+
+/* flex resuable classes  */
+.flexRow {
+  display: flex;
+  flex-direction: row;
+}
+.flexCol {
+  display: flex;
+  flex-direction: column;
+}
+.flexwrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+.justifyContentCenter {
+  justify-content: center;
+}
+.justifyContentBetween {
+  justify-content: space-between;
+}
+.justifyContentaround {
+  justify-content: space-around;
+}
+.justifyitemsaround {
+  justify-items: space-around;
+}
+.justifyContentFlexEnd {
+  justify-content: flex-end;
+}
+.alignItemsCenter {
+  align-items: center;
+}
+.alignContentCenter {
+  align-content: center;
+}
+
+/* height resuable classes  */
+.height100vw {
+  height: 100vw;
+}
+.height100per {
+  height: 100%;
+}
+.height90vw {
+  height: 90vw;
+}
+.height90per {
+  height: 90%;
+}
+.height80vw {
+  height: 80vw;
+}
+.height80per {
+  height: 80%;
+}
+.height70vw {
+  height: 70vw;
+}
+.height70per {
+  height: 70%;
+}
+.height5vw {
+  height: 5vw;
+}
+.height50per {
+  height: 50%;
+}
+.height2vw{
+  height: 2vw;
+}
+.height3vw{
+  height: 2.3vw;
+}
+
+/* width resuable classes  */
+.width100vw {
+  width: 100vw;
+}
+.width100per {
+  width: 100%;
+}
+.width95vw {
+  width: 95vw;
+}
+.width90vw {
+  width: 90vw;
+}
+.width90per {
+  width: 90%;
+}
+.width80vw {
+  width: 80vw;
+}
+.width80per {
+  width: 80%;
+}
+.width70vw {
+  width: 70vw;
+}
+.width70per {
+  width: 70%;
+}
+.width60per {
+  width: 60%;
+}
+.width50vw {
+  width: 50vw;
+}
+.width50per {
+  width: 50%;
+}
+.width15per {
+  width: 15%;
+}
+.width30per {
+  width: 30%;
+}
+.width20per {
+  width: 20%;
+}
+
+/* fontsize  */
+.fontsize2vw {
+  font-size: 2vw;
+}
+.fontsize3vw {
+  font-size: 3vw;
+}
+.fontsize4vw {
+  font-size: 4vw;
+}
+.fontsize5vw {
+  font-size: 5vw;
+}
+
+.fontcolorgrey {
+  color: gray;
+}
+.fontbolder {
+  font-weight: bolder;
+}
+/* text alignment classes  */
+.textalignmentcenter {
+  text-align: center;
+}
+/* border radius 50%  */
+.borderRadius50per {
+  border-radius: 50%;
+}
+/* margin resuable classes  */
+.margin5per {
+  margin: 5%;
+}
+.marginleft20per {
+  margin-left: 20%;
+}
+.margintopbottom5per {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.margintopbottom1vw {
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+}
+.marginleftright5per {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+.margin2per {
+  margin: 2%;
+}
+.margintopbottom2per {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.marginleftright2per {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+/* padding resuable classes  */
+.padding5per {
+  padding: 5%;
+}
+.paddingtop5per {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.paddingleftright5per {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.padding2per {
+  padding: 2%;
+}
+.paddingtop2per {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.paddingleftright2per {
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+/* header section starts  */
+.nav:hover {
+  color: black;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropbtn {
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+}
+.dropbtn img {
+  width: 1.5vw;
+  height: 1.5vw;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: lightgray;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.header .buttonStyle button {
+  width: 5vw;
+  height: 3vw;
+  background-color: white;
+  padding: 10%;
+}
+.header .buttonStyle button:hover {
+  color: white;
+  background-color: green;
+  border: 1px solid white;
+}
+/* header ends here  */
+/* hero section starts  */
+.heroSection {
+  background-image: url(../image/herobg.jpg);
+  height: 35vw;
+  background-size: cover;
+  background-position: center;
+  background-color: #3d4d59;
+  background-repeat: no-repeat;
+}
+
+.userDetails {
+  background-color: white;
+}
+.hedaerContent {
+  color: white;
+}
+.hedaerContent h1 {
+  color: white;
+  font-size: 2vw;
+}
+.formContentBox {
+  margin: 7%;
+}
+.userDetails label {
+  font-weight: bolder;
+  margin-top: 1vw;
+}
+.userDetails input::placeholder {
+  color: rgb(64, 62, 62);
+  padding-left: 1vw;
+}
+.userDetails input {
+  width: 12vw;
+  margin-right: 1vw;
+  height: 2vw;
+  border: 1px solid black;
+  background-color: var(--inputbox);
+}
+.userDetails textarea {
+  width: 23vw;
+  height: 5vw;
+  background-color: var(--inputbox);
+}
+.userDetails .textareacontent {
+  padding-left: 2vw;
+  padding-top: 1vw;
+  margin-bottom: 1vw;
+}
+.userDetails button {
+  border: none;
+  color: white;
+  padding-left: 1vw;
+  background-color: transparent;
+}
+.userDetails .button {
+  color: white;
+
+  width: 10vw;
+  margin-left: 7vw;
+  height: 3vw;
+  background-color: var(--blue);
+}
+.userDetails img {
+  width: 2vw;
+  height: 2vw;
+}
+
+/* advantagesIcon starts  */
+.advantagesIcon {
+  background-color: #f9f9fb;
+}
+.advantagesIcon img {
+  width: 4vw;
+  height: 4vw;
+}
+.advantagesIcon h1 {
+  font-size: 1.5vw;
+  margin: 5% 0%;
+}
+.advantagesIcon p {
+  text-align: center;
+}
+.iconCards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*  partional images starts  */
+.bgImages1 {
+  height: 20vw;
+  background-color: #0779e9;
+  background-image: url(../image/1.jpg);
+  background-size: cover;
+}
+.bgImages3 {
+  height: 20vw;
+  background-color: #0779e9;
+  background-image: url(../image/2.png);
+  background-size: cover;
+}
+.bgImages2 {
+  height: 20vw;
+  background-color: #0779e9;
+  background-image: url(../image/5.png);
+  background-size: cover;
+}
+
+/* review section  */
+.review {
+  background-color: #f9f9fb;
+}
+.reviewIconCards {
+  background-color: #f9f9fb;
+}
+.firstCard {
+  margin-right: 1vw;
+  border: 1px solid none;
+  background-color: white;
+  border-radius: 2%;
+  gap: 5%;
+  box-shadow: 1px 1px 2px 2px #b8c4c8;
+}
+.secondCard {
+  margin-left: 1vw;
+  border: 1px solid none;
+  background-color: white;
+  border-radius: 2%;
+  gap: 5%;
+ box-shadow: 1px 1px 2px 2px #b8c4c8;
+}
+.reviewIconCards img {
+  border-radius: 50%;
+  margin-left: 1vw;
+  border: 1px solid black;
+  width: 4vw;
+  height: 4vw;
+}
+.review .content {
+  background-color: #f9f9fb;
+}
+.review .content span {
+  color: #0779e9;
+}
+.directionIcon img {
+  width: 3vw;
+  margin: 0% 3%;
+  height: 3vw;
+}
+
+/* signup starts here  */
+.signup {
+  color: white;
+  background-image: url(../image/herobg.jpg);
+  height: 10vw;
+}
+.signup button {
+  background-color: #0779e9;
+  border:5px solid #0779e9;
+  color: white;
+}
+/* footer starts here  */
+.footer .Icons img {
+  width:  2vw;
+  height: 2vw;
+  margin: 0% 10%;
+}
+.footer .links {
+  color: #0779e9;
+}
