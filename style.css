@@ -273,7 +273,7 @@
 /* header ends here  */
 /* hero section starts  */
 .heroSection {
-  background-image: url(..image/herobg.jpg);
+  background-image: url(image/herobg.jpg);
   height: 35vw;
   background-size: cover;
   background-position: center;
@@ -363,19 +363,19 @@
 .bgImages1 {
   height: 20vw;
   background-color: #0779e9;
-  background-image: url(..image/1.jpg);
+  background-image: url(image/1.jpg);
   background-size: cover;
 }
 .bgImages3 {
   height: 20vw;
   background-color: #0779e9;
-  background-image: url(..image/2.png);
+  background-image: url(image/2.png);
   background-size: cover;
 }
 .bgImages2 {
   height: 20vw;
   background-color: #0779e9;
-  background-image: url(..image/5.png);
+  background-image: url(image/5.png);
   background-size: cover;
 }
 
@@ -424,7 +424,7 @@
 /* signup starts here  */
 .signup {
   color: white;
-  background-image: url(..image/herobg.jpg);
+  background-image: url(image/herobg.jpg);
   height: 10vw;
 }
 .signup button {
